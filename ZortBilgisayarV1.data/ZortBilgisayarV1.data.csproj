@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+<ItemGroup>
+    <ProjectReference Include="..\ZortBilgisayarV1.entity\ZortBilgisayarV1.entity.csproj" />
+</ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PrivateAssets>all</PrivateAssets>
+  </PackageReference>
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5" />
+</ItemGroup>
+
+<!-- <ItemGroup>
+  <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.5" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PrivateAssets>all</PrivateAssets>
+  </PackageReference>
+  <PackageReference Include="Microsoft.EntityFrameworkcore.Sqlite" Version="3.1.3" />
+</ItemGroup> -->
+</Project>

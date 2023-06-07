@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\ekran1.jpg",
+      "PackagePath": "staticwebassets\\img\\ekran1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\ekran2.jpg",
+      "PackagePath": "staticwebassets\\img\\ekran2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\ekran3.jpg",
+      "PackagePath": "staticwebassets\\img\\ekran3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\foto.jpg",
+      "PackagePath": "staticwebassets\\img\\foto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\ihpne12.jpg",
+      "PackagePath": "staticwebassets\\img\\ihpne12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\iphone11.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\işlemci1.jpg",
+      "PackagePath": "staticwebassets\\img\\işlemci1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\işlemci2.jpg",
+      "PackagePath": "staticwebassets\\img\\işlemci2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\işlemci2.webp",
+      "PackagePath": "staticwebassets\\img\\işlemci2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\işlemci3.jpg",
+      "PackagePath": "staticwebassets\\img\\işlemci3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\işlemci3.webp",
+      "PackagePath": "staticwebassets\\img\\işlemci3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\pc1.jpg",
+      "PackagePath": "staticwebassets\\img\\pc1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\pc2.jpg",
+      "PackagePath": "staticwebassets\\img\\pc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\tablet1.jpg",
+      "PackagePath": "staticwebassets\\img\\tablet1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\tablet2.jpg",
+      "PackagePath": "staticwebassets\\img\\tablet2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\tablet3.jpg",
+      "PackagePath": "staticwebassets\\img\\tablet3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\img\\telefon1.jpg",
+      "PackagePath": "staticwebassets\\img\\telefon1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mause\\OneDrive\\Masaüstü\\SonMVC\\ZortBilgisayarV1\\wwwroot\\js\\search.js",
+      "PackagePath": "staticwebassets\\js\\search.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ZortBilgisayar.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ZortBilgisayar.props",
+      "PackagePath": "build\\ZortBilgisayar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ZortBilgisayar.props",
+      "PackagePath": "buildMultiTargeting\\ZortBilgisayar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ZortBilgisayar.props",
+      "PackagePath": "buildTransitive\\ZortBilgisayar.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

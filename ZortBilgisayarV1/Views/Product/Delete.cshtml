@@ -1,0 +1,12 @@
+
+
+<form action="/product/edit_delete" method="post" >
+<input type="hidden" name="ProductId" value="@Model.ProductId"/>
+    <div class="form-group">
+        <label for="Name">Silincek Ürün</label>
+        <select name="Name" asp-items="@ViewBag.Name" class="form-control">
+            <option selected disabled>Siliecen Ürünü Seçiniz</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-danger mt-2" style="margin-bottom: 25px;">Silme</button>
+</form>

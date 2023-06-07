@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+<ItemGroup>
+    <ProjectReference Include="..\ZortBilgisayarV1.entity\ZortBilgisayarV1.entity.csproj"/>
+</ItemGroup>
+
+<ItemGroup>
+    <ProjectReference Include="..\ZortBilgisayarV1.data\ZortBilgisayarV1.data.csproj"/>
+</ItemGroup>
+
+
+
+</Project>

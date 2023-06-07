@@ -1,0 +1,103 @@
+@model Product
+@{
+    Layout = "~/Views/Shared/Components/_LayoutUrunDetay.cshtml";
+}
+@* @if (@Model.describtion=="telefon")
+{ *@
+<div class="card mb-3">
+    <div class="card-boddy">
+        <div class="row no-gutters">
+            <div class="col-md-3">
+                <img src="~/img/@Model.ImageUrl" class="card-img">
+            </div>
+            <div class="col-md-9">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="card-text">@Model.GPU</p>
+                <p class="card-text">@Model.CPU</p>
+                <p class="card-text">@Model.Battery</p>
+                <p class="card-text">@Model.Size</p>
+                <p class="card-text">@Model.Camera</p>
+                <p class="card-text">@Model.Price</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* else if (@Model.CategoryId==2)
+{
+<div class="card mb-3">
+<div class="card-boddy">
+<div class="row no-gutters">
+<div class="col-md-3">
+<img src="~/img/@Model.ImageUrl" class="card-img">
+</div>
+<div class="col-md-9">
+<h5 class="card-title">@Model.Name</h5>
+<p class="card-text">@Model.Camera</p>
+<p class="card-text">@Model.Size</p>
+<p class="card-text">@Model.Price</p>
+<p class="card-text">@Model.describtion</p>
+<small class="text-muted">3 days ago</small>
+</div>
+</div>
+</div>
+</div>
+}
+else if (@Model.CategoryId==3)
+{
+<div class="card mb-3">
+<div class="card-boddy">
+<div class="row no-gutters">
+<div class="col-md-3">
+<img src="~/img/@Model.ImageUrl" class="card-img">
+</div>
+<div class="col-md-9">
+<h5 class="card-title">@Model.Name</h5>
+<p class="card-text">@Model.Camera</p>
+<p class="card-text">@Model.Size</p>
+<p class="card-text">@Model.Battery</p>
+<p class="card-text">@Model.Price</p>
+<small class="text-muted">3 days ago</small>
+</div>
+</div>
+</div>
+</div>
+}
+else if (@Model.CategoryId==4)
+{
+<div class="card mb-3">
+<div class="card-boddy">
+<div class="row no-gutters">
+<div class="col-md-3">
+<img src="~/img/@Model.ImageUrl" class="card-img">
+</div>
+<div class="col-md-9">
+<h5 class="card-title">@Model.Name</h5>
+<p class="card-text">@Model.Size</p>
+<p class="card-text">@Model.Price</p>
+<small class="text-muted">3 days ago</small>
+</div>
+</div>
+</div>
+</div>
+}
+else if (@Model.CategoryId==5)
+{
+<div class="card mb-3">
+<div class="card-boddy">
+<div class="row no-gutters">
+<div class="col-md-3">
+<img src="~/img/@Model.ImageUrl" class="card-img">
+</div>
+<div class="col-md-9">
+<h5 class="card-title">@Model.Name</h5>
+<p class="card-text">@Model.CPU</p>
+<p class="card-text">@Model.Price</p>
+<small class="text-muted">3 days ago</small>
+</div>
+</div>
+</div>
+</div>
+}
+
+*@

@@ -1,0 +1,29 @@
+@model ZortBilgisayarV1.ViewModels.ProductListViewModel
+@{
+    Layout="~/Views/Shared/_LayoutAnasayfa.cshtml";
+}
+
+
+    @* <div class="col-md-3" >           
+        @await Component.InvokeAsync("Categories")     
+    </div> *@
+
+     
+         @if (Model.Products.Count==0)
+            {
+                @await Html.PartialAsync("~/Views/Shared/Components/_productalert.cshtml")
+            }
+            else
+            {
+                <div class="row">
+                    @foreach (var product in Model.Products)
+                    {
+                        <div class="col-md-3">
+                        @await Html.PartialAsync("~/Views/Shared/Components/_productcard.cshtml",product)
+                        </div>
+                    }
+                </div>
+            }
+
+
+

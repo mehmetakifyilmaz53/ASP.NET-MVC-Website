@@ -1,0 +1,39 @@
+
+
+<form action="/product/create_add" method="post" >
+    <div class="form-group">
+        <label for="Name">Ürün İsmi</label>
+        <input type="text" name="Name" class="form-control"> 
+    </div>
+    <div class="form-group">
+        <label for="Price">Ürün Fiyatı</label>
+        <input type="text" name="Price" class="form-control"> 
+    </div>
+    <div class="form-group">
+        <label for="describtion">Açıklama</label>
+        <textarea type="text" name="describtion" class="form-control"></textarea> 
+    </div>
+    <div class="form-group">
+        <label for="ImageUrl">Görsel</label>
+        <input type="text" name="ImageUrl" class="form-control"> 
+    </div>
+     <div class="form-group">
+        <label for="CPU">İşlemci</label>
+        <input type="text" name="CPU" class="form-control"> 
+    </div>
+    <div class="form-group">
+        <label for="GPU">GPU</label>
+        <input type="text" name="GPU" class="form-control"> 
+    </div>
+    <div class="form-group">
+        <label for="Quality">Görüntü Kalitesi</label>
+        <input type="text" name="Quality" class="form-control"> 
+    </div>
+    <div class="form-group">
+        <label for="CategoryId">Kategori</label>
+        <select name="CategoryId" asp-items="@ViewBag.Categories" class="form-control">
+            <option selected disabled>Kategori Seçiniz</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-danger mt-2" style="margin-bottom: 25px;">ekle</button>
+</form>
